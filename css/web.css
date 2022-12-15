@@ -86,18 +86,18 @@
 	margin: auto;
 }
 .home-col{
-	padding: 200px;
+	padding: 100px;
+	margin: 120px;
 }
 .home-col p,h1{
 	padding: 25px;
 }
 .home-btn a{
-	border-radius: 20px;
-	width: 30%;
-	padding: 15px;
+	border-radius: 30px;
+	padding: 8px 25px;
 	text-decoration: none;
-	border: 2px solid #ffff;
-	background-color: #f2f2f24f;
+	border: 3px solid #ffff;
+	background-color: #f2f2f226;
 	color: #fff;
 	margin-top: 20px;
 }
@@ -242,6 +242,7 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin: 20px;
+	padding: 20px;
 }
 .service-card-box{
 	width: 22%;

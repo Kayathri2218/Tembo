@@ -838,7 +838,7 @@ img{
 .foot-col-con{
 	padding: 20px;
 }
-input[type=email]{
+ .email-foot input[type=email]{
 	border-radius: 20px;	
 	padding: 10px;
 	width: 80%;

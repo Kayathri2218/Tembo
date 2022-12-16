@@ -55,8 +55,8 @@
 	display: flex;
 	justify-content: space-evenly;
 }
-.nav-bar{
-	width: 11.5%;
+.nav-bar i{
+	padding: 5px;
 }
 .nav a{
 	text-decoration: none;

@@ -361,7 +361,7 @@
 	flex-wrap: wrap;
 }
 .service-card-box{
-	width:33.3%;
+	width:50%;
 }
 .service-card-box i{
 	padding: auto;
@@ -477,8 +477,8 @@
 	margin: auto;
 }
 .team-col1{
-	width: 70%;
-	margin: auto;
+	width: 100%;
+	margin: auto;	
 }
 .team-col2{
 	display: flex;
@@ -755,7 +755,7 @@
 	margin: auto;
 }
 .team-col1{
-	width: 70%;
+	width: 100%;
 	margin: auto;
 }
 .team-col2{
@@ -810,7 +810,6 @@
 	color: #fff;
 	background-color: #e43c5c;
 }
-
 .container-footer{
 	width: 90%;
 	margin: auto;

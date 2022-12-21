@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Open Sans", sans-serif;
+	
 }
 
 			/*Home Section */
@@ -109,6 +110,7 @@
 .about-container{
 	width: 90%;
 	margin: auto;
+	color: #444444;
 }
 .about-row{
 	padding: 70px;
@@ -126,7 +128,7 @@
 }
 .about-head h4{
 	background-color: #e43c5c21;
-	color: #fa050d;
+	color: #e43c5c;
 	border-radius: 25px;
 	width: 15%;
 	padding: 10px;	
@@ -181,6 +183,7 @@
 .service-container{
 	width: 90%;
 	margin: auto;
+	color: #444444;
 }
 .service-head{
 	display: flex;
@@ -189,7 +192,7 @@
 }
 .service-head h4{
 	background-color: #e43c5c26;
-	color: #fa050d;
+	color: #e43c5c;
 	border-radius: 30px;
 	width: 25%;
 	padding: 20px;
@@ -234,13 +237,15 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	margin: 20px;
-	padding: 20px;
+	padding-bottom: 20px;
 }
 .service-card-box{
 	width: 25%;
+	padding: 15px 15px 15px 15px;
+}
+.ser-padding{
 	box-shadow: 5px 5px 5px 5px #0000002b; 
-	padding: 20px;
+	padding:15px 10px 20px 30px;
 	display: flex;
 	align-items: center;
 }
@@ -324,13 +329,14 @@
 .por-container{
 	width: 90%;
 	margin: auto;
+	color: #444444;
 }
 .por-head{
 	margin-top: 40px;
 }
 .por-head h4{
 	background-color: #e43c5c26;
-	color: #fa050d;
+	color: #e43c5c;
 	border-radius: 25px;
 	width: 15%;
 	padding: 10px;
@@ -595,6 +601,7 @@
 .team-container{
 	width: 90%;
 	margin: auto;
+	color: #444444;
 }
 .team-col2{
 	display: flex;
@@ -613,7 +620,8 @@
 	padding: 25px;
 	width: 100%;
 	position: absolute;
-	top: 250px;
+	top: 150px;
+	bottom: 60px;
 	background-color: #fbfbfbcc;
 	opacity: 0;
 }
@@ -640,10 +648,10 @@ img{
 	text-align: center;
 }
 .team-col1 p{
-	width: 60%;
+	width: 100%;
 	margin: auto;
-	padding: 20px;
-	font-size: 25px;
+	padding-bottom: 30px;
+	font-size: 15px;
 }
 .team-sec p{
 	color: #cccac4;
@@ -653,7 +661,7 @@ img{
 }
 .team-head h5{
 	background-color: #e43c5c1c;
-	color: #fa050d;
+	color: #e43c5c;
 	border-radius: 25px;
 	width: 15%;
 	padding: 10px;
@@ -671,6 +679,7 @@ img{
 .container-contact{
 	width: 90%;
 	margin: auto;
+	color: #444444;
 }
 .contact-head{
 	display: flex;
@@ -679,7 +688,7 @@ img{
 }
 .contact-head h4{
 	background-color: #e43c5c1c;
-	color: #fa050d;
+	color: #e43c5c;
 	border-radius: 25px;
 	width: 15%;
 	padding: 10px;
@@ -757,6 +766,14 @@ img{
 .form-sec2{
 	padding: 20px;
 }
+.contact-us2 input:focus { 
+    outline: none !important;
+    border-color: #e43c5c;
+ }
+ .contact-us2 textarea:focus { 
+    outline: none !important;
+    border-color: #e43c5c;
+ }
 .form-sec2 input[type=text]{
 	width: 100%;
 	padding: 10px;
@@ -769,7 +786,7 @@ img{
 }
 .form-sec3 textarea{
 	width: 100%;
-	padding: 10px;
+	padding: 20px;
 	background-color: #fff;
 	border: 1px solid #c5d1c8;
 }
@@ -868,6 +885,7 @@ img{
 	right: 80px;
 	top: 0;
 	bottom: 0;
+
 }
 
 

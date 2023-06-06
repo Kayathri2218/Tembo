@@ -281,7 +281,7 @@
 		padding: 25px;
 		width: 100%;
 		position: absolute;
-		top: 180px;
+		top: 257px;
 		bottom: 50px;
 		background-color: #fbfbfb91;
 		opacity: 0;
@@ -306,6 +306,9 @@
 	}
 
 	.contact-col1 {
+		width: 100%;
+	}
+	.contact-col1 p {
 		width: 100%;
 	}
 
@@ -685,7 +688,7 @@
 		padding: 25px;
 		width: 100%;
 		position: absolute;
-		top: 185px;
+		top: 177px;
 		bottom: 60px;
 		background-color: #fbfbfbcc;
 		opacity: 0;
@@ -720,6 +723,9 @@
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
+	}
+	.contact-col1 p {
+		width: 100%;
 	}
 
 	.contact-us1 {
@@ -1076,7 +1082,7 @@
 		padding: 25px;
 		width: 100%;
 		position: absolute;
-		top: 190px;
+		top: 147px;
 		bottom: 70px;
 		background-color: #fbfbfbcc;
 		opacity: 0;
@@ -1105,6 +1111,9 @@
 		display: inline;
 	}
 
+	.contact-col1 p {
+		width: 50%;
+	}
 	.contact-col3 {
 		width: 100%;
 		display: flex;

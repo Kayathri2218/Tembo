@@ -47,6 +47,11 @@ a {
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 24px;
+	position: fixed;
+	background: #dadbdd5b;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
 .nav-menu {
@@ -898,7 +903,6 @@ img {
 }
 
 .contact-col1 p {
-	width: 50%;
 	font-weight: 600;
 	margin: auto;
 }
